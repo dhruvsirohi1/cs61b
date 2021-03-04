@@ -12,7 +12,6 @@ import java.util.Arrays;
 import java.util.List;
 
 /** Class that represents a complete enigma machine.
- * What the heck is happening.
  *  @author Dhruv Sirohi
  */
 class Machine {
