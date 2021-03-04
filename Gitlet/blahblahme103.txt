@@ -1,0 +1,10 @@
+\begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+         Trial No. & 1 & 2 & 3 & 4 & 5\\[0.5 ex]
+         Resistor Power (W) & 0.975 & 2.861 & 4.464 & 0.717 & 7.9\\
+         Steady State Temp ($^{\circ}$C}) & 28.2 & 38.7 & 45.5 & 26.6 & 58.0\\
+         Measured h (ignoring radiation and conduction) & 187.2642 & 97.8558 & 157.6868 & 137.8121 & 107.1031\\
+         Measured h (considering radiation) & 182.4176$\pm$36.9787 & 93.7191$\pm$3.6438 & 153.1344$\pm$19.4185 & 133.4134$\pm$12.2377 & 102.9326$\pm$4.6026\\
+    \end{tabular}{}
+\end{center}

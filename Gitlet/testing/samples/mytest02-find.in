@@ -1,0 +1,23 @@
+# Add some files and remove and check status.
+> init
+<<<
++ mytest1.txt mytest1.txt
+> add mytest1.txt
+<<<
+> commit "added mytest1"
+<<<
++ mytest1b.txt mytest1b.txt
+> add mytest1b.txt
+<<<
+> commit "added mytest1"
+<<<
++ mytest1c.txt mytest1c.txt
+> add mytest1c.txt
+<<<
+> commit "added third"
+<<<
+D HEADER "[a-f0-9]+"
+> find "added mytest1"
+${HEADER}
+${HEADER}
+<<<*

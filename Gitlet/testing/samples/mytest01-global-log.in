@@ -1,0 +1,28 @@
+# Add some files and remove and check status.
+> init
+<<<
++ mytest1.txt mytest1.txt
+> add mytest1.txt
+<<<
+> commit "added mytest1"
+<<<
++ mytest1b.txt mytest1b.txt
+> add mytest1b.txt
+<<<
+> rm mytest1b.txt
+<<<
+D ARBLINES "(?:(?:.|\n)*(?:\n|\Z)|\A|\Z)"
+> status
+=== Branches ===
+\*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modifications Not Staged For Commit ===
+
+=== Untracked Files ===
+${ARBLINES}
+
+<<<*

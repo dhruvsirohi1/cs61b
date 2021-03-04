@@ -1,0 +1,57 @@
+# Add some files and remove and check status.
+> init
+<<<
++ mytest1.txt mytest1.txt
+> add mytest1.txt
+<<<
+> commit "added mytest1"
+<<<
+> branch b1
+<<<
++ merge.txt merge.txt
+> add merge.txt
+<<<
+> commit "merger added"
+<<<
+> checkout b1
+<<<
++ mytest1b.txt mytest1b.txt
+> add mytest1b.txt
+<<<
+> commit "added mytest1b"
+<<<
++ mytest1c.txt mytest1c.txt
+> add mytest1c.txt
+<<<
+> commit "added third"
+<<<
+> checkout master
+<<<
+> merge b1
+<<<
+D HEADER "commit [a-f0-9]+"
+D PARTIAL "Merge: [a-f0-9]+ [a-f0-9]+"
+D DATE "Date: \w\w\w \w\w\w \d+ \d\d:\d\d:\d\d \d\d\d\d [-+]\d\d\d\d"
+> log
+===
+${HEADER}
+${PARTIAL}
+${DATE}
+Merged b1 into master.
+
+===
+${HEADER}
+${DATE}
+merger added
+
+===
+${HEADER}
+${DATE}
+added mytest1
+
+===
+${HEADER}
+${DATE}
+initial commit
+
+<<<*

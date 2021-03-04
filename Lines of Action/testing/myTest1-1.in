@@ -1,0 +1,29 @@
+#* java -ea loa.Main
+manual white
+d1-d3
+dump
+a3-d3
+dump
+c1-c3
+dump
+new
+set a2 - black
+set a3 - black
+set a4 - black
+set a5 - black
+set a6 - black
+set a7 - black
+set b1 - black
+set c1 - black
+set d1 - black
+set e1 - black
+set f1 - black
+set g1 - black
+set h4 - black
+set h5 - black
+set e6 black black
+#*time 150 100
+dump
+auto white
+auto black
+#*move/win+

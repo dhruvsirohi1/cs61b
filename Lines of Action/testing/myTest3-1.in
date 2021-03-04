@@ -1,0 +1,5 @@
+#Full timed game
+#*java -ea loa.Main
+#*time 40 20
+auto black
+#*move/win

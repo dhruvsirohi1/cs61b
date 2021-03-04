@@ -1,0 +1,10 @@
+#* java -ea loa.Main
+auto white
+c1-c3
+#*move
+new
+manual white
+auto black
+#*move
+auto white
+#*move/win

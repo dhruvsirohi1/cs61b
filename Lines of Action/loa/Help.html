@@ -1,0 +1,65 @@
+<!--Skeleton Copyright (C) 2015, 2020 Paul N. Hilfinger and the Regents of the
+ * University of California.  All rights reserved. -->
+
+<html>
+
+<body style="font-family: serif; background-color: #EFEFEF; color: black; font-size: 14px; ">
+
+<h1 align="center">Lines of Action</h1>
+<p>Lines of Action (LOA) is a two player, strategy board game invented by Claude Soucie.</p>
+
+<h2>Rules</h2>
+<h3>Goal</h3>
+<p>Each player attempts to get their pieces in one single contiguous group.</p>
+<h3>Moves</h3>
+<p><ul><li>Black Player moves first.</li>
+  <li>Each Piece can move vertically, horizontally and diagonally.</li>
+  <li>A piece can move the exact number of squares as there are pieces in the straight line
+      in the moving direction (both opponents, and it's own type, AND including itself),
+      from end to end in a board.</li>
+  <li>A piece B "captures" an opposing piece W, if W is at the square that is exactly
+      x squares away from B, in the direction d. x = all pieces (non-empty squares) in the straight line of squares
+      in direction d.</li>
+  <li>A piece may never land on a square that has a same type piece.</li>
+  <li>A piece may jump over it's own type pieces.</li>
+  <li>A piece may NOT jump over enemy pieces. In this case the piece is blocked.</li>
+  <li>If a move results in both players achieving a contiguous body of pieces,
+      the player that made the move is the winner.</li>
+  <li>If Black Player makes a move which results in only one, remaining piece for White
+      Player, and Black Player has more than 1 contiguous groups of pieces, then White Player
+      has won</li>
+</ul><p>
+
+<h2>Controlling Play</h2>
+<h3>Miscellaneous Menu Options</h3>
+  <ul>
+    <li><b>Game</b>
+    <p>Use this drop down menu to either quit the game,
+      or reset the board to the starting position (with black to move).
+    <font color="red"><u>NOTE:</u></font> If you wish to play the game manually after resetting, please make
+    sure that atleast one player is selected as manual before selecting new, otherwise the game will
+      make moves itself.</p></li>
+    <li><b>Settings</b></li>
+    <p>AUTO: Set a player as Machine Player.</p>
+    <p> MANUAL: Set a player as a Human Player.</p>
+    <li><b>Move</b></li>
+    <p>UNDO: undo a single move. If you are playing against the Machine, this command undoes
+      your and the opponents move.</p>
+    <p>If both players are human, undoes 1 move.</p>
+    <li><b>Help</b></li>
+    <p>To get here.</p>
+  </ul>
+<b>Moving Pieces</b>
+<p>A drag and drop functionality is implemented to make moves.</p>
+<ol>
+  <li>Pressing down on a piece will highlight the next possible moves for that piece,
+  provided you press down the mouse on your piece.</li>
+  <li>Keep the mouse pressed, and release it on the square you want your piece to move to.</li>
+  <li>Letting go of the mouse button when the pointer is not over the legal square will
+  result in the selected piece being unselected.</li>
+</ol>
+
+</body>
+</html>
+
+
